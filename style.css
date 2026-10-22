@@ -1,0 +1,130 @@
+ 
+        /* GENEL AYARLAR */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            scroll-behavior: smooth;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* MENÜ (NAVBAR) */
+        header {
+            background-color: #2c3e50;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .navbar {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+        .logo {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        .nav-links li {
+            margin-left: 20px;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .nav-links a:hover {
+            color: #1abc9c;
+        }
+
+        /* BÖLÜMLER (SECTIONS) */
+        section {
+            padding: 100px 20px;
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        /* ANA SAYFA GİRİŞ ALANI */
+        #home {
+            background-color: #34495e;
+            color: #fff;
+        }
+        #home h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        /* HAKKIMDA ALANI */
+        #about {
+            background-color: #fff;
+        }
+
+        /* YETENEKLER VE TABLO ALANI */
+        #skills {
+            background-color: #f4f4f4;
+        }
+        /*  TABLO STİLLERİ */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        /* İLETİŞİM ALANI */
+        #contact {
+            background-color: #fff;
+        }
+        .contact-links a {
+            color: #1abc9c;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        /* SAYFA ALTI (FOOTER) */
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+   
